@@ -1,0 +1,17 @@
+extends base
+
+block content
+  main.main    
+   .login-form
+      h2.heading-secondary.ma-bt-lg #{title}
+      form.form.form--review(data-tour-id=`${tour.id}`)
+        .form__group 
+          .label.form__label_comment(for='review') Comment
+          textarea#review.form__comment(type='text', required) 
+        .form__group.ma-bt-md
+        .label.form__label_comment(for='rating') Rating
+          input#rating.form__comment_input(type='number', placeholder='1-5', required, minlength='1')
+        .form__group
+          button.btn.btn--green Send
+        //- button.btn.btn--green.span-all-rows#book-tour(data-tour-id=`${tour.id}`)
+          
