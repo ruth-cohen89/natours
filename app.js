@@ -25,6 +25,9 @@ app.enable('trust proxy');
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
+// Access-Control-Allow-Origin *
+app.use(cors());
+app.options('*', cors());
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(helmet());
