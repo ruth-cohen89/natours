@@ -16,7 +16,7 @@ const signAccessToken = (id) =>
     expiresIn: process.env.JWT_EXPIRES_IN,
   });
 
-const createSendToken = async (user, statusCode, res) => {
+const createSendToken = async (user, statusCode, req, res) => {
   const accessToken = signAccessToken(user._id);
   const refreshToken = await RefreshToken.createToken(user);
 
@@ -25,14 +25,13 @@ const createSendToken = async (user, statusCode, res) => {
       Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * 24 * 60 * 60 * 1000 //days to ms
     ),
     httpOnly: true,
+    secure: req.secure || req.headers('x-forwarded-proto') === 'https'
   };
-
-  if (process.env.NODE_ENV === 'production') cookieOptions.secure = true;
 
   res.cookie('jwt', accessToken, refreshToken, cookieOptions);
   res.cookie('refreshToken', refreshToken, cookieOptions);
 
-  // Remove the password from output
+  // Remove password from output
   user.password = undefined;
 
   res.status(statusCode).json({
@@ -88,7 +87,7 @@ exports.emailConfirm = catchAsync(async (req, res, next) => {
   user.passwordResetToken = undefined;
   user.passwordResetExpires = undefined;
   await user.save({ validateBeforeSave: false });
-  createSendToken(user, 200, res);
+  createSendToken(user, 200, req, res);
 });
 
 exports.sendSmsVerificationCode = catchAsync(async (req, res, next) => {
@@ -142,7 +141,7 @@ exports.login = catchAsync(async (req, res, next) => {
       new AppError('You have not confirmed your email address!', 401)
     );
   }
-  createSendToken(user, 200, res);
+  createSendToken(user, 200, req, res);
 });
 
 exports.logout = (req, res) => {
@@ -318,7 +317,7 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
   user.passwordResetToken = undefined;
   user.passwordResetExpires = undefined;
   await user.save();
-  createSendToken(user, 200, res);
+  createSendToken(user, 200, req, res);
 });
 
 exports.updatePassword = catchAsync(async (req, res, next) => {
