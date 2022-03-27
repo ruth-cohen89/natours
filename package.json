@@ -11,7 +11,8 @@
     "dev": "nodemon server.js",
     "prod": "SET NODE_ENV=production&&nodemon server.js",
     "debug": "ndb server.js",
-    "watch:js": "parcel watch --no-hmr ./public/js/index.js --out-dir ./public/js --public-url /js --out-file bundle.js"
+    "watch:js": "parcel watch --no-hmr ./public/js/index.js --out-dir ./public/js --public-url /js --out-file bundle.js",
+    "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --public-url /js --out-file bundle.js"
   },
   "author": "Ruth Cohen",
   "license": "ISC",
@@ -61,5 +62,8 @@
     "parcel-bundler": "^1.12.5",
     "prettier": "^2.5.1",
     "twilio-run": "^3.4.1"
-  }
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  } 
 }
