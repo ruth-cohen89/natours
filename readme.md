@@ -20,6 +20,6 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 <h2>Demonstration</h2>
 <h3>Home Page</h3>
-<img width="200" src="https://user-images.githubusercontent.com/58518192/72606801-7ebe0680-3949-11ea-8e88-613f022a64e5.gif" />
+<img  src="https://user-images.githubusercontent.com/58518192/72606801-7ebe0680-3949-11ea-8e88-613f022a64e5.gif" />
 
 Built using modern technologies: node.js, express, mongoDB and mongoose
