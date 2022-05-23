@@ -4,7 +4,7 @@
   <img width="200" src="https://user-images.githubusercontent.com/57313608/169885398-7113fa56-fea1-4c11-bee0-0fe00d0a7a61.png" />
 </p>
 <h1 align="center">Natours</h1>
-<p align="center">An awesome tour booking site built on top of NodeJS.</p>
+<p align="center"><b>An awesome tour booking site built on top of NodeJS</b></p>
 
 <h2>Deployed Version</h2>
 Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
@@ -18,8 +18,22 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
   - Update username, photo, email, and password
 * Credit card Payment
 
-<h2>Demonstration</h2>
+<h2>Demonstration :</h2>
 <h3>Home Page</h3>
 <img  src="https://user-images.githubusercontent.com/58518192/72606801-7ebe0680-3949-11ea-8e88-613f022a64e5.gif" />
+
+<h3>Tour Details :</h3>
+<img  src="https://user-images.githubusercontent.com/58518192/72606859-a0b78900-3949-11ea-8f0d-ef44c789957b.gif" />
+
+<h3>Payment Process :</h3>
+<img  src="https://user-images.githubusercontent.com/58518192/72606973-d9eff900-3949-11ea-9a2e-f84a6581bef3.gif" />
+
+<h3>Booked Tours :</h3>
+<img  src="https://user-images.githubusercontent.com/58518192/72607747-6a7b0900-394b-11ea-8b9f-5330531ca2eb.png" />
+
+<h3>User Profile :</h3>
+<img  src="https://user-images.githubusercontent.com/58518192/72607635-44edff80-394b-11ea-8943-64c48f6f19aa.png" />
+
+<h3>Admin Profile :</h3>
 
 Built using modern technologies: node.js, express, mongoDB and mongoose
