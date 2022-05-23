@@ -70,4 +70,24 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 * You can update your own username, profile photo, email and password.
 
-Built using modern technologies: node.js, express, mongoDB and mongoose
+<h3>Built with: </h3>
+
+* NodeJS - JS runtime environment
+
+* Express - The web framework used
+
+* Mongoose - Object Data Modelling (ODM) library
+
+* MongoDB Atlas - Cloud database service
+
+* Pug - High performance template engine
+
+* JSON Web Token - Security token
+* ParcelJS - Blazing fast, zero configuration web application bundler
+* Stripe - Online payment API
+
+* Postman - API testing
+
+* Mailtrap & Sendgrid - Email delivery platform
+
+* Heroku - Cloud platform
