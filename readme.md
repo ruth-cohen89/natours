@@ -6,8 +6,7 @@
 <h1 align="center">Natours</h1>
 <p align="center">An awesome tour booking site built on top of NodeJS.</p>
 
-Built using modern technologies: node.js, express, mongoDB and mongoose
-
+<h2>Deployed Version</h2>
 # Deployed Version
 Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
@@ -19,3 +18,5 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 * User profile
   - Update username, photo, email, and password
 * Credit card Payment
+
+Built using modern technologies: node.js, express, mongoDB and mongoose
