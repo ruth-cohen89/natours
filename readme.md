@@ -1,11 +1,11 @@
 
 
 <p align="center">
-  <img width="200" height="150" src="https://user-images.githubusercontent.com/57313608/169885398-7113fa56-fea1-4c11-bee0-0fe00d0a7a61.png" />
+  <img width="200" src="https://user-images.githubusercontent.com/57313608/169885398-7113fa56-fea1-4c11-bee0-0fe00d0a7a61.png" />
 </p>
 <h1 align="center">Natours</h1>
+<p align="center">An awesome tour booking site built on top of NodeJS.</p>
 
-An awesome tour booking site built on top of NodeJS.
 Built using modern technologies: node.js, express, mongoDB and mongoose
 
 # Deployed Version
@@ -19,3 +19,6 @@ Manage booking, check tours map, check users' reviews and rating
 User profile
 Update username, photo, email, and password
 Credit card Payment
+First list item
+  - First nested list item
+    - Second nested list item
