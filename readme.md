@@ -38,6 +38,7 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 
 <h2>How To Use</h2>
+
 <h3>Book a tour</h3>
 * Login to the site
 * Search for tours that you want to book
