@@ -54,6 +54,7 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 * Finished!
 <h3>Manage your booking</h3>
+
 * Go to "Manage Booking" page in your user settings.
 
 <h3>Update your profile</h3>
