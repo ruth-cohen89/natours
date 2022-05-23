@@ -36,4 +36,22 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 <h3>Admin Profile :</h3>
 
+
+<h2>How To Use</h2>
+Book a tour
+Login to the site
+Search for tours that you want to book
+Book a tour
+Proceed to the payment checkout page
+Enter the card details (Test Mood):
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"> </div>
+- Card No. : 4242 4242 4242 4242
+- Expiry date: 02 / 22
+- CVV: 222
+Finished!
+Manage your booking
+Check the tour you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this page after you have completed the booking.
+Update your profile
+You can update your own username, profile photo, email and password.
+
 Built using modern technologies: node.js, express, mongoDB and mongoose
