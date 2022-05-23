@@ -10,12 +10,16 @@
 Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 <h2>Key Features</h2>
+
 * Authentication and Authorization
   - Login and logout
+
 * Tour
   - Manage booking, check tours map, check users' reviews and rating
+
 * User profile
   - Update username, photo, email, and password
+
 * Credit card Payment
 
 <h2>Demonstration :</h2>
@@ -40,10 +44,15 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 <h2>How To Use</h2>
 
 <h3>Book a tour</h3>
+
 * Login to the site
+
 * Search for tours that you want to book
+
 * Book a tour
+
 * Proceed to the payment checkout page
+
 * Enter the card details (Test Mode):
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"> </div>
 <pre class="notranslate">
@@ -58,6 +67,7 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 * Go to "Manage Booking" page in your user settings.
 
 <h3>Update your profile</h3>
+
 * You can update your own username, profile photo, email and password.
 
 Built using modern technologies: node.js, express, mongoDB and mongoose
