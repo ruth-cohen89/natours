@@ -28,7 +28,7 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 * Credit card Payment
 
-<h2>Demonstration :</h2>
+<h2>Demonstration</h2>
 <h3>Home Page</h3>
 <img  src="https://user-images.githubusercontent.com/58518192/72606801-7ebe0680-3949-11ea-8e88-613f022a64e5.gif" />
 
@@ -76,7 +76,7 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 * You can update your own username, profile photo, email and password.
 
-<h2>Built with: </h2>
+<h2>Built with</h2>
 
 * NodeJS - JS runtime environment
 
