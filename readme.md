@@ -13,7 +13,7 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 # Key Features
 * Authentication and Authorization
-Login and logout
+  - Login and logout
 Tour
 Manage booking, check tours map, check users' reviews and rating
 User profile
