@@ -3,8 +3,9 @@
 </p>
 <h1 align="center">Natours</h1>
 <p align="center"><b>An awesome tour booking site built on top of NodeJS</b></p>
-<p align="center"><a href="#Demo">* Key Features</a> <a href="#Key Features">Key Features</a></p>
-<a href="#Key Features">Key Features</a>
+<p align="center">" • "<a href="#Demo"></a> <a href="#Key Features">Key Features</a></p>
+
+
 <h2>Deployed Version</h2>
 Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
