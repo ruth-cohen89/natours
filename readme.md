@@ -20,5 +20,5 @@ User profile
 Update username, photo, email, and password
 Credit card Payment
 First list item
-  - First nested list item
+  - First nested list ite
     - Second nested list item
