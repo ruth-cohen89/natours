@@ -4,7 +4,7 @@
 <h1 align="center">Natours</h1>
 <p align="center"><b>An awesome tour booking site built on top of NodeJS</b></p>
 <p align="center">
-  •<a href="#Deployed Version">Demo</a>
+  •<a href="#deployed-version">Demo</a>
   •<a href="#Key Features">Key Features</a>
   •<a href="#Demonstration">Demonstration</a>
   •<a href="#How To Use">How To Use</a>
