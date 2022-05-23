@@ -69,7 +69,7 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 - CVV: 222
 </pre>
 
-* Finished!
+* Finished
 <h3>Manage your booking</h3>
 
 * Go to "Manage Booking" page in your user settings.
