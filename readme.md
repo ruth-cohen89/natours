@@ -44,10 +44,14 @@ Search for tours that you want to book
 Book a tour
 Proceed to the payment checkout page
 Enter the card details (Test Mood):
+
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"> </div>
+<pre class="notranslate">
 - Card No. : 4242 4242 4242 4242
 - Expiry date: 02 / 22
 - CVV: 222
+</pre>
+
 Finished!
 Manage your booking
 Check the tour you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this page after you have completed the booking.
