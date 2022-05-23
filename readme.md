@@ -3,7 +3,14 @@
 </p>
 <h1 align="center">Natours</h1>
 <p align="center"><b>An awesome tour booking site built on top of NodeJS</b></p>
-<p align="center">" • "<a href="#Demo"></a> <a href="#Key Features">Key Features</a></p>
+<p align="center">
+  •<a href="#Deployed Version">Demo</a>
+  •<a href="#Key Features">Key Features</a>
+  •<a href="#Demonstration">Demonstration</a>
+  •<a href="#How To Use">How To Use</a>
+  •<a href="#Built With">Built With</a>
+  •<a href="#Key Features">Key Features</a>
+</p>
 
 
 <h2>Deployed Version</h2>
@@ -70,7 +77,7 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 * You can update your own username, profile photo, email and password.
 
-<h3>Built with: </h3>
+<h2>Built with: </h2>
 
 * NodeJS - JS runtime environment
 
