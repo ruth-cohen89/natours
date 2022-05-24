@@ -1,6 +1,7 @@
 <p align="center">
   
-  <img width="192" src="https://user-images.githubusercontent.com/57313608/170000714-80d30409-4c36-42df-b9f5-0ada29917e53.jpg" />
+  <img width="192" src="https://user-images.githubusercontent.com/57313608/170001601-2615b978-72c5-41c7-8c64-0ef79de3f659.png"
+ />
 </p>
 <h1 align="center">Natours</h1>
 <p align="center">
