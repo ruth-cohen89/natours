@@ -1,10 +1,8 @@
 <p align="center">
   
-  
-  <img width="192" src="https://user-images.githubusercontent.com/57313608/169885398-7113fa56-fea1-4c11-bee0-0fe00d0a7a61.png" />
+  <img width="192" src="https://user-images.githubusercontent.com/57313608/170000714-80d30409-4c36-42df-b9f5-0ada29917e53.jpg" />
 </p>
 <h1 align="center">Natours</h1>
-<p align="center"><b>An awesome tour booking site built on top of NodeJS</b></p>
 <p align="center">
   • <a href="#deployed-version">Deployed Version</a>
   • <a href="#key-features">Key Features</a>
@@ -12,7 +10,6 @@
   • <a href="#how-to-use">How To Use</a>
   • <a href="#built-with">Built With</a>
 </p>
-
 
 <h2>Deployed Version</h2>
 Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
@@ -22,8 +19,8 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 * Authentication and Authorization
   - Login and logout
 
-* Tour
-  - Manage booking, check tours map, check users' reviews and rating
+* Program
+  - Create your personal diet program Create meal plans, workout plans
 
 * User profile
   - Update username, photo, email, and password
@@ -91,8 +88,12 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 * Pug - High performance template engine
 
 * JSON Web Token - Security token
+
 * ParcelJS - Blazing fast, zero configuration web application bundler
+
 * Stripe - Online payment API
+
+* Twilio - Sms API 
 
 * Postman - API testing
 
