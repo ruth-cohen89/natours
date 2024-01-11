@@ -25,7 +25,7 @@ const createSendToken = async (user, statusCode, req, res) => {
       Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * 24 * 60 * 60 * 1000 //days to ms
     ),
     httpOnly: true,
-    secure: req.secure || req.headers('x-forwarded-proto') === 'https'
+    secure: req.secure || req.headers['x-forwarded-proto'] === 'https',
   };
 
   res.cookie('jwt', accessToken, refreshToken, cookieOptions);
@@ -199,7 +199,8 @@ exports.refreshToken = catchAsync(async (req, res, next) => {
 // Authentication
 exports.protect = catchAsync(async (req, res, next) => {
   let token;
-  // postman
+  // postman - development only
+  console.log('hi', req);
   if (
     req.headers.authorization &&
     req.headers.authorization.startsWith('Bearer')

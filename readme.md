@@ -97,6 +97,8 @@ Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
 
 * Postman - API testing
 
-* Mailtrap & Sendgrid - Email delivery platform
+* Mailtrap - Email delivery platform for development
+
+* Sendgrid - Email delivery platform for production
 
 * Heroku - Cloud platform

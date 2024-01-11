@@ -12,6 +12,7 @@ module.exports = class Email {
   }
 
   newTransport() {
+    console.log(process.env.NODE_ENV);
     if (process.env.NODE_ENV === 'production') {
       return nodemailer.createTransport(
         nodemailerSendgrid({
@@ -21,11 +22,11 @@ module.exports = class Email {
     }
 
     return nodemailer.createTransport({
-      host: process.env.EMAIL_HOST,
-      port: process.env.EMAIL_PORT,
+      host: process.env.MAILTRAP_EMAIL_HOST,
+      port: process.env.MAILTRAP_EMAIL_PORT,
       auth: {
-        user: process.env.EMAIL_USERNAME,
-        pass: process.env.EMAIL_PASSWORD,
+        user: process.env.MAILTRAP_EMAIL_USERNAME,
+        pass: process.env.MAILTRAP_EMAIL_PASSWORD,
       },
     });
   }
