@@ -12,7 +12,7 @@
 </p>
 
 <h2>Deployed Version</h2>
-Live demo (Feel free to visit) 👉 : https://natours-ruth.herokuapp.com/
+Live demo (Feel free to visit) 👉 : https://natours-ruth-daa3672d3ad4.herokuapp.com/
 
 <h2>Key Features</h2>
 
