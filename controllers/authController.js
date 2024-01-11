@@ -199,8 +199,6 @@ exports.refreshToken = catchAsync(async (req, res, next) => {
 // Authentication
 exports.protect = catchAsync(async (req, res, next) => {
   let token;
-  // postman - development only
-  console.log('hi', req);
   if (
     req.headers.authorization &&
     req.headers.authorization.startsWith('Bearer')

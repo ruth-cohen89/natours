@@ -9116,7 +9116,6 @@ exports.displayMap = void 0;
 // This file is running on the front end side
 
 /* eslint-disable */
-//console.log('hello from the client');
 // locations was sent from the tour template as a parameter
 exports.uppercase = function (str) {
   return str.toUpperCase();
@@ -68430,7 +68429,6 @@ if (insertPhoneForm) {
 }
 
 if (insertVerificationCode) {
-  console.log('insert code');
   insertVerificationCode.addEventListener('submit', function (e) {
     e.preventDefault();
     var code = document.getElementById('code').value;
