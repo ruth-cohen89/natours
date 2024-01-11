@@ -1,7 +1,7 @@
 {
   "name": "natours",
   "version": "1.0.0",
-  "description": "Learning node, express and mongoDB",
+  "description": "website for booking tours",
   "main": "app.js",
   "targets": {
     "main": false
